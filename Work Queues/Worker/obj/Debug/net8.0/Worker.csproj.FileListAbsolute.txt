@@ -1,0 +1,43 @@
+C:\Users\azizur\Learn\RabbitMQ\Worker\bin\Debug\net8.0\Worker.exe
+C:\Users\azizur\Learn\RabbitMQ\Worker\bin\Debug\net8.0\Worker.deps.json
+C:\Users\azizur\Learn\RabbitMQ\Worker\bin\Debug\net8.0\Worker.runtimeconfig.json
+C:\Users\azizur\Learn\RabbitMQ\Worker\bin\Debug\net8.0\Worker.dll
+C:\Users\azizur\Learn\RabbitMQ\Worker\bin\Debug\net8.0\Worker.pdb
+C:\Users\azizur\Learn\RabbitMQ\Worker\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\azizur\Learn\RabbitMQ\Worker\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\azizur\Learn\RabbitMQ\Worker\bin\Debug\net8.0\System.Threading.RateLimiting.dll
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.csproj.AssemblyReference.cache
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.AssemblyInfoInputs.cache
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.AssemblyInfo.cs
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.csproj.CoreCompileInputs.cache
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.csproj.CopyComplete
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.dll
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\refint\Worker.dll
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.pdb
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\Worker.genruntimeconfig.cache
+C:\Users\azizur\Learn\RabbitMQ\Worker\obj\Debug\net8.0\ref\Worker.dll
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\NewTask.deps.json
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\NewTask.runtimeconfig.json
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\NewTask.exe
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\Worker.exe
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\Worker.deps.json
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\Worker.runtimeconfig.json
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\Worker.dll
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\Worker.pdb
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\System.Threading.RateLimiting.dll
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\NewTask.dll
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\bin\Debug\net8.0\NewTask.pdb
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.csproj.AssemblyReference.cache
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.AssemblyInfoInputs.cache
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.AssemblyInfo.cs
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.csproj.CoreCompileInputs.cache
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.csproj.CopyComplete
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.dll
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\refint\Worker.dll
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.pdb
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\Worker.genruntimeconfig.cache
+C:\Users\azizur\Learn\RabbitMQ\Work Queues\Worker\obj\Debug\net8.0\ref\Worker.dll

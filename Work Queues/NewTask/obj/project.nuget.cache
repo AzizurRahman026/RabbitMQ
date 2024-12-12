@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "34mQPCAAqiGlYucpW/mVDmnz9tEk1nIiiHKDtIozP/8/h7aV6AbAoir16+bvgaelummOYKI7qfQBqNFMc/VV3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\azizur\\Learn\\RabbitMQ\\Work Queues\\NewTask\\NewTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\azizur\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
+    "C:\\Users\\azizur\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\azizur\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
