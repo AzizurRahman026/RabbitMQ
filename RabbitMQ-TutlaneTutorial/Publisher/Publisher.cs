@@ -1,6 +1,10 @@
 ﻿using RabbitMQ.Client;
 using System;
+using System.Linq.Expressions;
+using System.Reflection;
 using System.Text;
+using System.Threading;
+using System.Threading.Channels;
 
 // Connection parameters
 string UserName = "guest";
@@ -18,34 +22,42 @@ var connectionFactory = new ConnectionFactory
 var connection = await connectionFactory.CreateConnectionAsync(); // Await the connection
 
 // Create an asynchronous channel
-using var model = await connection.CreateChannelAsync(); // Await the channel to get IModel instance
+var channel = await connection.CreateChannelAsync(); // Await the channel to get IModel instance
 
 
 string exchangeName = "demoExchange";
 string exchangeType = ExchangeType.Direct;
-model.ExchangeDeclareAsync("demoExchange", exchangeType);
+await channel.ExchangeDeclareAsync("demoExchange", exchangeType);
 
 Console.WriteLine($"Creating Exchange: {exchangeName} & type {exchangeType}");
 
-
+string queueName = "demoqueue";
 // Create Queue
-await model.QueueDeclareAsync(queue: "demoqueue", durable: true, exclusive: false, autoDelete: false,arguments: null);
+await channel.QueueDeclareAsync(queue: queueName, durable: true, exclusive: false, autoDelete: false,arguments: null);
 Console.WriteLine("Creating Queue");
 
 
 // Bind Queue to Exchange
-model.QueueBindAsync("demoqueue", "demoExchange", "directexchange_key");
+await channel.QueueBindAsync("demoqueue", "demoExchange", "directexchange_key");
 Console.WriteLine("Creating Binding");
 
+byte[] messagebuffer = Encoding.Default.GetBytes("Publisher Direct Message...2");
+var properties = new BasicProperties { Persistent = true };
 
-// byte[] messagebuffer = Encoding.Default.GetBytes("Direct Message");
-
-model.BasicPublishAsync(
-    exchange: exchangeName,
-    routingKey: "directexchange_key",
-    basicProperties: null,
-    body: Encoding.Default.GetBytes("hello")
-);
+try
+{
+    await channel.BasicPublishAsync(
+        exchange: exchangeName,
+        routingKey: "directexchange_key",
+        mandatory: false,
+        basicProperties: properties,
+        body: messagebuffer
+    );
+}
+catch (Exception ex)
+{ 
+    Console.Error.WriteLine($"{DateTime.Now} [ERROR], ex: {ex}");
+}
 
 Console.WriteLine("Message Sent");
 

@@ -16,4 +16,5 @@ C:\Users\azizur\Learn\RabbitMQ\RabbitMQ-TutlaneTutorial\Publisher\obj\Debug\net8
 C:\Users\azizur\Learn\RabbitMQ\RabbitMQ-TutlaneTutorial\Publisher\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\azizur\Learn\RabbitMQ\RabbitMQ-TutlaneTutorial\Publisher\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\Users\azizur\Learn\RabbitMQ\RabbitMQ-TutlaneTutorial\Publisher\bin\Debug\net8.0\System.Threading.RateLimiting.dll
+C:\Users\azizur\Learn\RabbitMQ\RabbitMQ-TutlaneTutorial\Publisher\obj\Debug\net8.0\Publisher.sourcelink.json
 C:\Users\azizur\Learn\RabbitMQ\RabbitMQ-TutlaneTutorial\Publisher\obj\Debug\net8.0\Publisher.csproj.CopyComplete
